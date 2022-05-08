@@ -1,0 +1,401 @@
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.indexImage {
+    background-image: url("../../../assets/images/first.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.secenderyItem {
+    position: absolute;
+    width: 100%;
+}
+
+.indexLogoImage {
+    display: flex;
+    height: 3em;
+    margin: 3rem 8em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.indexFooter{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8em;
+    margin-top: auto;
+    margin-bottom: 5em;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu span {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+
+.menu span:hover {
+    color: #c1272d;
+    cursor: pointer;
+}
+
+.menu i {
+    background-color: white;
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+.frontSection {
+    z-index: 50;
+}
+
+.linkSection {
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+.secendBoxContent {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.oilLogoImage {
+    background-image: url("../../../assets/images/oilLogo.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    background-size: contain;
+    background-position: right;
+}
+
+.secendContentDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 3em;
+}
+
+.contentTextBox {
+    width: auto;
+    display: flex;
+    text-align: justify;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.contentImageTitle {
+    width: 40%;
+    margin-right: auto;
+}
+
+.contentTextBox p {
+    width: 50.3em;
+    margin-right: auto;
+}
+
+.contentChartDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.contentChartImage {
+    height: 25em;
+}
+
+.chartBoxContent {
+    text-align: justify;
+    margin-top: 5em;
+    margin-left: -1.5em;
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraphBox p {
+    margin: auto;
+}
+
+.firstTitleSecentContent {
+    margin-left: -2em;
+    margin-right: 0.2em;
+    z-index: -1;
+}
+
+.thirdContentDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+    margin-right: 8em;
+    width: 45.3em;
+}
+
+.thirdBoxContent {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-bottom: 3.5em;
+}
+
+.imagesOil {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -22em;
+    background-attachment: fixed;
+}
+
+.rockCloudImage img,
+.seaImage img {
+    width: 100%;
+    display: flex;
+    margin-top: -0.3em;
+}
+
+.oilRigImage {
+    position: absolute;
+    width: auto;
+    height: 53%;
+    right: 5%;
+    bottom: 26%;
+}
+
+.oilRigImageGradient {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(6, 78, 103, 1), rgba(6, 78, 103, 1));
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    z-index: 10;
+    bottom: 12%;
+}
+
+.contentBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 8em;
+    margin-right: 8em;
+    width: 45.3em;
+    z-index: 15;
+    bottom: 21%;
+}
+
+.fourthContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+    margin-right: 8em;
+    width: 100%;
+}
+
+.fourthContentDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.fourthContentDivTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 30em;
+}
+
+.fourthContentDivImageTitle {
+    width: 70%;
+}
+
+.oilRigImagesBox {
+    margin-top: 1.5em !important;
+}
+
+.gridItem {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.dividerSeprator {
+    border-right: 1px solid #9e9e9e !important;
+}
+
+.rigImage {
+    height: 15em !important;
+    width: auto !important;
+    margin-bottom: 2em;
+}
+
+.fifthBackgroundImage {
+    background-image: url("../../../assets/images/publicPower.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.fifthContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+    margin-right: 8em;
+    text-align: justify;
+    width: 45.4em;
+    margin-bottom: auto;
+    margin-top: 10em;
+}
+
+.sixthContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+    margin-right: 8em;
+    text-align: justify;
+}
+
+.sixthContentDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.sixthContentVideo {
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+    height: 25em;
+}
+
+.sixthContentDescription {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 4em;
+}
+
+.footerLogoDiv {
+    display: flex;
+    margin-left: 8em;
+    margin-right: 8em;
+    height: 4em;
+    margin-bottom: 0.6em;
+}
+
+.footerContent {
+    background-image: linear-gradient(to bottom, #000, #343434);
+    padding-top: 3em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerContentDiv {
+    margin-left: 8em;
+    width: 45.4em;
+}
+
+.aboutUs {
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.3em;
+}
+
+.aboutUs span {
+    font-size: 2.2em;
+}
+
+.aboutSite {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    text-align: left;
+}
+
+.aboutSiteItem {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+.connectUs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.connectUs svg{
+    margin-left: 0.4em;
+    margin-right: 0.1em;
+}
+
+.connectUs svg:hover{
+    color: #c1272d;
+    cursor: pointer;
+}
+
+.copyRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyRightItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyRightItem span {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+
+.itemBorder {
+    border-right: 1px solid #c9c9c9;
+}
+
+.oilFooterImage {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.oilFooterImage img {
+    height: 20em;
+    width: auto;
+}
